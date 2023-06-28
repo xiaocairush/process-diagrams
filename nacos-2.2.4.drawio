@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T13:19:32.088Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="S66zu1OQ2I8u3xVEwgiN" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T14:18:20.446Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="GrkZ_N7DrvU3H8b8BSQc" version="21.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3597" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="28854" dy="15500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1297,12 +1297,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q1vg5UGWyR_InF0rxwos-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeWidth=6;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q1vg5UGWyR_InF0rxwos-102" target="Q1vg5UGWyR_InF0rxwos-110">
+        <mxCell id="Q1vg5UGWyR_InF0rxwos-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;strokeWidth=6;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q1vg5UGWyR_InF0rxwos-102" target="Q1vg5UGWyR_InF0rxwos-110">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="6210" y="1290" />
-              <mxPoint x="6210" y="5160" />
-              <mxPoint x="6493" y="5160" />
+              <mxPoint x="6210" y="5166" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1852,6 +1851,9 @@
         <mxCell id="Q1vg5UGWyR_InF0rxwos-307" value="clientManager.syncClientConnected" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="8870" y="4670" width="337.5" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Q1vg5UGWyR_InF0rxwos-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q1vg5UGWyR_InF0rxwos-311" target="Q1vg5UGWyR_InF0rxwos-340">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Q1vg5UGWyR_InF0rxwos-311" value="upgradeClient(client, clientSyncData)" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="8870" y="4880" width="337.5" height="40" as="geometry" />
         </mxCell>
@@ -1949,6 +1951,9 @@
         </mxCell>
         <mxCell id="Q1vg5UGWyR_InF0rxwos-336" value="如果clients中不存在client，就将client放到clients这个map中" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10583.87" y="5160" width="375.75" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1vg5UGWyR_InF0rxwos-340" value="通过发送ClientRegisterServiceEvent，&lt;br&gt;ClientDeregisterServiceEvent，&lt;br&gt;ClientChangedEvent等事件完成同步" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="8865.63" y="5170" width="346.25" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
