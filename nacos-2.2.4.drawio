@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T11:35:36.946Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PreOPokFQnmE99Mg3VM-" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T11:38:54.743Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_cRfry7JICTV2gg9BS5s" version="21.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4676" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5540" dy="2214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="MDCgqM_N-FcFhvjQFqfu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MDCgqM_N-FcFhvjQFqfu-0" target="MDCgqM_N-FcFhvjQFqfu-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1vg5UGWyR_InF0rxwos-284" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MDCgqM_N-FcFhvjQFqfu-0" target="Q1vg5UGWyR_InF0rxwos-250">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MDCgqM_N-FcFhvjQFqfu-0" value="开始" style="whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -1677,6 +1680,11 @@
         </mxCell>
         <mxCell id="Q1vg5UGWyR_InF0rxwos-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q1vg5UGWyR_InF0rxwos-250" target="Q1vg5UGWyR_InF0rxwos-248">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1vg5UGWyR_InF0rxwos-285" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;主要处理同步distro变化&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q1vg5UGWyR_InF0rxwos-252">
+          <mxGeometry x="-0.1748" y="-6" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Q1vg5UGWyR_InF0rxwos-250" value="gprc调用" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="9466.25" y="370" width="473.75" height="60" as="geometry" />
