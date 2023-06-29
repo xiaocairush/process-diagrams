@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T17:17:18.076Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3voHPm0jlhkJEghLoMkJ" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T17:23:17.966Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="oho6WtlJIStN-jO8Bez3" version="21.5.2" type="github">
   <diagram name="第 1 页" id="E6oDrkw3hYDFD17rWhZb">
-    <mxGraphModel dx="6028" dy="2719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6330" dy="2891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,6 +157,9 @@
         </mxCell>
         <mxCell id="8NAubKkpm3a8wYk_etbg-62" value="component = componentService.getComponent(node.componentId)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1180" y="1010" width="426" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8NAubKkpm3a8wYk_etbg-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="8NAubKkpm3a8wYk_etbg-64" target="8NAubKkpm3a8wYk_etbg-159">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8NAubKkpm3a8wYk_etbg-64" value="component.buildModelNode()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1180" y="1170" width="426" height="40" as="geometry" />
@@ -416,6 +419,9 @@
               <mxPoint x="-260" y="2840" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8NAubKkpm3a8wYk_etbg-159" value="注意这里对INode的所有子节点也调用buildModelNode()方法构建成了modelNode" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="1110" width="360" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
