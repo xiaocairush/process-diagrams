@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T09:28:44.146Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_Dd-GRKXIPrmr_ZQ0J0X" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T09:33:24.371Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="JHFKLkCBAgw-_ygYeAxo" version="21.5.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="11762" dy="3875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6905" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1050,7 +1050,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q1vg5UGWyR_InF0rxwos-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;通过udp来通知订阅的客户端&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;利用jdk提供的的DatagramSocket&lt;/span&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="Q1vg5UGWyR_InF0rxwos-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;通过udp来通知订阅者比如客户端&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;利用jdk提供的的DatagramSocket&lt;/span&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="8604.75" y="9015" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Q1vg5UGWyR_InF0rxwos-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;endSize=24;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q1vg5UGWyR_InF0rxwos-23" target="MDCgqM_N-FcFhvjQFqfu-125" edge="1">
@@ -2275,6 +2275,17 @@
         </mxCell>
         <mxCell id="Jw8AlQejR6YKEnmEG5T--97" value="onInstanceRegister" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-4740" y="3512.25" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jw8AlQejR6YKEnmEG5T--102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;strokeWidth=6;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Jw8AlQejR6YKEnmEG5T--100" target="MDCgqM_N-FcFhvjQFqfu-133">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3040" y="3770" />
+              <mxPoint x="-3040" y="6300" />
+              <mxPoint x="1420" y="6300" />
+              <mxPoint x="1420" y="4880" />
+              <mxPoint x="1785" y="4880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Jw8AlQejR6YKEnmEG5T--100" value="向NotifyCenter&lt;br&gt;发布ClientRegisterServiceEvent事件" style="whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-3737.5" y="3720" width="385" height="100" as="geometry" />
