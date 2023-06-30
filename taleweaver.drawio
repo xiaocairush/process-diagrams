@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T07:52:37.327Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="R7ol4Pr8LBnrUfVsOcDl" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-30T08:36:06.088Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="U_XA1WB_jRQ5zyM8rDQL" version="21.5.2" type="github">
   <diagram name="第 1 页" id="E6oDrkw3hYDFD17rWhZb">
-    <mxGraphModel dx="5008" dy="2138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="12375" dy="6336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -450,6 +450,9 @@
         </mxCell>
         <mxCell id="8NAubKkpm3a8wYk_etbg-178" value="ViewState" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="3630" y="3925" width="297.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8NAubKkpm3a8wYk_etbg-512" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8NAubKkpm3a8wYk_etbg-182" target="8NAubKkpm3a8wYk_etbg-510">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8NAubKkpm3a8wYk_etbg-182" value="attach()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3647.5" y="4219" width="255" height="40" as="geometry" />
@@ -1356,6 +1359,9 @@
               <mxPoint x="9640" y="6140" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8NAubKkpm3a8wYk_etbg-510" value="将当前视图树根节点的container添加到domContainer的子节点列表中去" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4100" y="4219" width="255" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
